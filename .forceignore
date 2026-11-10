@@ -12,3 +12,6 @@ package.xml
 **/__tests__/**
 
 node_modules/
+
+# Default widget space the platform creates when provisioning an org
+**/digitalExperiences/fragment_space/DefaultWidgetSpace/**
