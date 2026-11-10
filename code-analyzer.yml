@@ -1,0 +1,9 @@
+rules:
+  pmd:
+    # Test methods follow the should<Result>_When<Scenario> convention.
+    # Dropping the Recommended tag keeps the rule out of the default selection.
+    MethodNamingConventions:
+      tags: ["Apex", "CodeStyle"]
+    # Test data factory helpers take a doInsert flag by design
+    AvoidBooleanMethodParameters:
+      tags: ["Apex", "BestPractices"]
